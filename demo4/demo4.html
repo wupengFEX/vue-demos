@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>demo4</title>
+	<meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+</head>
+
+<body>
+	<div id="demo4">
+		<button v-on:click='add'>add</button>
+		<button v-on:click='remove'>remove</button>
+		<button v-on:click='clear'>clear</button>
+		<p v-for='todo in todos'>This is todo {{todo.text}}</p>
+	</div>
+	<script src="../dist/vue.js"></script>
+	<script src="demo4.js"></script>
+</body>
+</html>

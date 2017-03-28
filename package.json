@@ -1,0 +1,23 @@
+{
+  "name": "vue-demos",
+  "version": "1.0.0",
+  "description": "a collection of simple demos of Vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wupengFEX/vue-demos.git"
+  },
+  "keywords": [
+    "vue",
+    "demos"
+  ],
+  "author": "smartfutureplayer@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wupengFEX/vue-demos/issues"
+  },
+  "homepage": "https://github.com/wupengFEX/vue-demos#readme"
+}

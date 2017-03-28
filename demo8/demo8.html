@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>demo8</title>
+	<meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+	<style type="text/css">
+		#demo8-2 {
+			color: green;
+		}
+		#demo8 {
+			color: red;
+		}
+	</style>
+</head>
+
+<body>
+	<p>Test Life Cycle</p>
+	<div id='demo8-1'>
+		<button v-on:click='remove'>delete demo8</button>
+	</div>
+	<div id='demo8-2'>
+		<p v-for='todo in todos'> {{todo}} </p>
+	</div>
+	<div id='demo8'>
+		<p>This is demo8</p>
+	</div>
+	<script src="../dist/vue.js"></script>
+	<script src="demo8.js"></script>
+</body>
+</html>
